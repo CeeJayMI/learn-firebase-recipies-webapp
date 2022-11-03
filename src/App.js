@@ -16,6 +16,7 @@ function App() {
 	const [categoryFilter, setCategoryFilter] = useState('');
 	const [orderBy, setOrderBy] = useState('publishDateDesc');
 	const [recipesPerPage, setRecipesPerPage] = useState(3);
+	// eslint-disable-next-line no-unused-vars
 	const [isLastPage, setIsLastPage] = useState(false);
 	const [totalNumberOfPages, setTotalNumberOfPages] = useState(0);
 	const [currentPageNumber, setCurrentPageNumber] = useState(1);
